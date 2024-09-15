@@ -482,6 +482,10 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   }
 
   @media (max-width : 600px){
+      body{
+          width:100vw
+          overflow-x:hidden;
+      }
     .home-iconnav{
       display: flex;
       height: 50px;
