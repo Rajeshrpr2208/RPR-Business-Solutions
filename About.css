@@ -1,13 +1,23 @@
 *{
-  font-family: sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 body{
-    position: relative;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
 }
+#veeradiv{
+position: absolute;
+display: none; padding-top: 10px;padding-right: 0px;
+top: 0;
+left: 40px;
+z-index: 99999999;
 
+}
 .img-home{
     width: 100%;
     height: 100vh;
@@ -312,7 +322,11 @@ a{
         }
         .hed-div{
           display: flex;
-        }#my-icon1 {
+        }
+      
+        
+        
+        #my-icon1 {
           font-size: 28px;
           line-height: 56px;
           gap: 20px;
@@ -426,14 +440,21 @@ a{
           padding-top:700px;
         }
 
-        @media (max-width : 600px){
-          body{
-            position: relative;
+        @media only screen and (max-width : 600px){
+          body,html{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+          }
+          #veeradiv{
+            position: fixed;
+            display: flex;
           }
           .home-iconnav{
             display: flex;
             height: 50px;
-            width: 400px;
+            width: 100%;
             background-color: #460073;
             z-index: 999900;
           }
@@ -447,9 +468,10 @@ a{
             width: 40%;
           }
           .toggle{
-            position: sticky;
+            position: fixed;
             display: block;
             z-index: 9999999;
+            width: 100%;
           }
       
           .home-but1{
@@ -463,7 +485,8 @@ a{
             font-size: 32px;
           }
           .img-home{
-            width: 500px;
+            width: 100%;
+            height: 500px;
             object-fit: fill;
           }
           .home-div{
@@ -522,6 +545,7 @@ a{
             display: flex;
             gap: 60px;
             margin-top: 40px;
+            width: 100%;
           }
           .footer-con{
             width: 300px;

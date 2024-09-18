@@ -1,13 +1,23 @@
 *{
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 body{
-    position: relative;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
 }
+#veeradiv{
+position: absolute;
+display: none; padding-top: 10px;padding-right: 0px;
+top: 0;
+left: 40px;
+z-index: 99999999;
 
+}
 .img-home{
     width: 100%;
     height: 100vh;
@@ -427,7 +437,7 @@ ul{
           position: absolute;
           top: 0;
           left: 0;
-          padding-left: 140px;
+          padding-left: 150px;
           width: 480px;
           height: 60px;
           cursor: pointer;
@@ -459,9 +469,16 @@ ul{
           margin-top: 50px ;
         }
 
-        @media (max-width : 600px){
-          body{
-            position: relative;
+        @media only screen and (max-width : 600px){
+          body,html{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+          }
+          #veeradiv{
+            position: fixed;
+            display: flex;
           }
           #footer-div{
             margin-top: 550px ;
@@ -469,7 +486,7 @@ ul{
           .home-iconnav{
             display: flex;
             height: 50px;
-            width: 400px;
+            width: 100%;
             background-color: #460073;
             z-index: 999900;
           }
@@ -484,7 +501,8 @@ ul{
             width: 40%;
           }
           .toggle{
-            position: sticky;
+            position: fixed;
+            width: 100%;
             display: block;
             z-index: 9999999;
           }
@@ -495,7 +513,7 @@ ul{
           .home-heading{
             height: 400px;
             width: 400px;
-            margin-left: 10px;
+            margin-left: 20px;
             margin-top:80px;
             font-size: 32px;
           }
@@ -503,7 +521,8 @@ ul{
             font-size: 3rem;
           }
           .img-home{
-            width: 500px;
+            width: 100%;
+            height: 500px;
             object-fit: fill;
             position: absolute;
           }
@@ -558,10 +577,12 @@ ul{
           }
           footer{
             display: block;
+            padding-left: 30px;
             
           }
           .footer-com{
             display: flex;
+            width: 100%;
             gap: 60px;
             margin-top: 40px;
           }
