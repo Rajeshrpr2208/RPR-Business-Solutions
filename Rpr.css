@@ -369,6 +369,9 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   footer{
     display: flex; gap: 100px; margin-left: 50px; padding-top: 30PX;
   }
+  .foot-divcom{
+    width: 300px;
+  }
   .footer-com{
     display: flex;
     gap: 100px;
@@ -633,4 +636,101 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
   }
 
   }
- 
+  @media only screen and (max-width : 400px){
+
+    .home-heading{
+      font-size: 1.5rem;
+      width: 80%;
+    }
+    .home-img{
+      height: 250px;
+      width: 250px;
+    }
+    .home-div{
+      width: 90%;
+    }
+    .h1tag{
+      padding-left: 30px;
+    }
+    .Service-card{
+      width: 95%;
+      padding-left: 5px;
+    }
+    #card-info{
+      width:270px;
+        height: 300px;
+      padding: 35px 35px 35px 35px ;
+        background-color: #ffffff;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0px 3px 30px 3px rgb(0 0 0 / 10%);
+      transition: transform ease 300ms;
+      overflow: hidden;
+      display: block;
+      padding-top: 10px;
+    }
+    #main-title{
+      margin: 20px 0px;
+      font-family: "Nunito", Sans-serif;
+        font-weight: bold;
+        line-height: 28px;
+        font-weight: 700;
+        font-style: normal;
+        color: #333;
+        font-size: 15px;
+    
+    }
+    #sub-title{
+        padding-bottom: 20px;
+        margin-top: 0px;
+      font-family: "Open Sans";
+        line-height: 15px;
+        font-style: normal;
+        color: #4b4b4b;
+        font-size: 12px;
+        height: 160px!important;
+        
+    }
+    #my-icon {
+      color:#460073;
+      font-size:46px;
+      line-height: 46px;
+      padding-left: 80PX;
+    }
+    #Service{
+      font-size: 1rem;
+    }
+    .javascript{
+      width: 95%;
+      padding-left: 5px;
+    }
+      .React{
+        height: 250px;
+        width: 250px;
+        padding-right: 10px;
+        border: 0.3px solid #34495e;
+    }
+    .Reacth1{
+      text-align: center; padding-top: 30px;font-size: 20px;
+     }
+     .Reacth3{
+      margin-left: 20px;padding-top: 20px;font-size: 15px;
+     }
+     .toggle{
+      padding-left: 130px;
+     }
+     footer{
+      display: block;
+      padding-left: 10px;
+      
+    }
+    .footer-com{
+      font-size: 15px;
+    }
+    .footer-con{
+      font-size: 15px;
+      width: 250px;
+    }
+    .foot-divcom{
+      width: 250px;
+    }
+  }

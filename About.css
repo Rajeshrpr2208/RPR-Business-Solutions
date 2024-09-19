@@ -597,3 +597,27 @@ a{
           padding-top:500px;
         }
         }
+
+        @media only screen and (max-width : 400px){
+          .toggle{
+            padding-left: 130px;
+           }
+           footer{
+            display: block;
+            padding-left: 10px;
+            
+          }
+          .footer-com{
+            font-size: 15px;
+          }
+          .footer-con{
+            font-size: 15px;
+            width: 250px;
+          }
+          .foot-divcom{
+            width: 250px;
+          }
+          #head1{
+            font-size: 26px;
+          }
+        }

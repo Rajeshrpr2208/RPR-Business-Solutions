@@ -643,3 +643,72 @@ ul{
   
           }
           
+        @media only screen and (max-width : 400px){
+          .toggle{
+            padding-left: 130px;
+           }
+           footer{
+            display: block;
+            padding-left: 10px;
+            
+          }
+          .footer-com{
+            font-size: 15px;
+          }
+          .footer-con{
+            font-size: 15px;
+            width: 250px;
+          }
+          .foot-divcom{
+            width: 250px;
+          }
+          #head1{
+            font-size: 26px;
+          }
+          .Service-card{
+            width: 95%;
+            padding-left: 5px;
+          }
+          #card-info{
+            width:270px;
+              height: 300px;
+            padding: 35px 35px 35px 35px ;
+              background-color: #ffffff;
+              border-radius: 10px 10px 10px 10px;
+              box-shadow: 0px 3px 30px 3px rgb(0 0 0 / 10%);
+            transition: transform ease 300ms;
+            overflow: hidden;
+            display: block;
+            padding-top: 10px;
+          }
+          #main-title{
+            margin: 20px 0px;
+            font-family: "Nunito", Sans-serif;
+              font-weight: bold;
+              line-height: 28px;
+              font-weight: 700;
+              font-style: normal;
+              color: #333;
+              font-size: 15px;
+          
+          }
+          #sub-title{
+              padding-bottom: 20px;
+              margin-top: 0px;
+            font-family: "Open Sans";
+              line-height: 15px;
+              font-style: normal;
+              color: #4b4b4b;
+              font-size: 12px;
+              height: 160px!important;
+              
+          }
+          #my-icon {
+            color:#460073;
+            font-size:46px;
+            line-height: 46px;
+            padding-left: 80PX;
+          }
+      
+        }
+          
