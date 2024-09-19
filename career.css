@@ -468,7 +468,9 @@ ul{
         #footer-div{
           margin-top: 50px ;
         }
-       
+        .foot-divcom{
+          width: 300px;
+        }
 
         @media only screen and (max-width : 600px){
           body,html{
@@ -578,14 +580,13 @@ ul{
           }
           footer{
             display: block;
-            padding-left: 30px;
             
           }
           .footer-com{
             display: flex;
-            width: 100%;
             gap: 60px;
             margin-top: 40px;
+            width: 100%;
           }
           .footer-con{
             width: 300px;

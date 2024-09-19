@@ -439,6 +439,9 @@ a{
         #head990{
           padding-top:700px;
         }
+        .foot-divcom{
+          width: 300px;
+        }
 
         @media only screen and (max-width : 600px){
           body,html{
