@@ -506,6 +506,7 @@ ul{
               padding: 0;
               overflow-x: hidden;
               box-sizing: border-box;
+              width: 100%;
             }
             #veeradiv{
               position: fixed;
